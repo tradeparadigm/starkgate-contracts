@@ -3,13 +3,12 @@ from pathlib import Path
 from typing import Optional
 
 from starknet_py.common import create_compiled_contract
-from starknet_py.contract import Contract, DeclareResult
+from starknet_py.contract import Contract
 from starknet_py.net import AccountClient, KeyPair
 from starknet_py.net.gateway_client import GatewayClient
 from starknet_py.net.models import StarknetChainId
 from starknet_py.net.networks import CustomGatewayUrls, Network
 from starkware.python.utils import from_bytes
-from starkware.starknet.public.abi import AbiType
 from utils import int_16
 
 # Private StarkNet

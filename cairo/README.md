@@ -13,7 +13,7 @@ $ source dev/bin/activate
 (dev)$ pip install -r requirements.txt
 ```
 
-> ⚠️ For macOS with Apple Silicon, you may need to do some handholding to
+> ⚠️ For macOS with Apple Silicon, you may need to do some hand-holding to
 > be able to install, as `gmp` wheels are not available for you yet (last
 > checked at 2022-07-15)
 
